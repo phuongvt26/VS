@@ -8,15 +8,12 @@ html,
 body {
     width: 100vw;
     height: 100vh;
-    overflow-y: ;
+    overflow-y: auto;
 
 }
 
 /* .container{
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   text-align: center;
+   position: relative;
 
 } */
 
@@ -47,7 +44,6 @@ body {
 
 .mail:hover {
     color: gold;
-    ;
 }
 
 .tel {
@@ -97,6 +93,8 @@ body {
     font-size: 16px;
     align-items: center;
     justify-content: center;
+    padding: 20px;
+
 
 }
 
@@ -104,7 +102,7 @@ body {
     margin-right: auto;
 }
 
-.img {
+.img{
     width: 180px;
     height: 50px;
     margin-left: 40px;
@@ -114,9 +112,6 @@ body {
 .item-action {
     margin-left: auto;
     margin-right: 50px;
-
-
-
 }
 
 select {
@@ -128,18 +123,10 @@ select {
     font-size: 14px;
 }
 
-/* select:focus{
-    color: darkgoldenrod;
-} */
-
 .contact-text {
     font-weight: 600;
     margin: 10px;
 }
-
-/* .contact-text:hover{
-    color: gold;
-} */
 
 .icon-search {
     margin-right: 10px;
@@ -159,8 +146,8 @@ select {
     background-image: url("https://cache.giaohangtietkiem.vn/d/739687a004b3e225cc1565e9baa5d845.jpg?");
     color: white;
     background-color: #07294d;
-
-
+    flex-direction: column;
+    gap: 10px;
 }
 
 .text-LDprofile {
@@ -193,7 +180,6 @@ select {
     height: 550px;
     border: 1px solid gray;
     border-radius: 5px;
-    /* margin: 10px; */
     padding: 30px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border: none;
@@ -257,4 +243,95 @@ select {
 
 .forgot-password-field {
     font-size: 18px;
+}
+.footer-top{
+    display: flex;
+    height: 400px;
+    background:#07294d;
+    color: white;
+    gap: 40px;
+    padding: 20px;
+}
+.edubin,.feature-links, .support, .contact-us {
+    height: 10px;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+.edubin{
+    width: 600px;
+}
+.feature-links, .support, .contact-us{
+    width: 400px;
+}
+.edubin{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;  
+}
+
+
+.footer-title{
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.edubin-des{
+    margin-left: 50px;
+    
+}
+.list-icon{
+    margin: 40px;
+    margin-top: 10px;
+}
+
+.icon-field{
+    border: 1px solid gray;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 14px;
+    color: aliceblue;
+
+}
+.address{
+    margin-bottom: 20px;
+}
+
+.infor{
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.list-item{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+}
+
+.footer-bottom{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    /* justify-content: center; */
+    width: 100%;
+    height: 80px;
+    background: #021d3a;
+    color: white;
+    font-size: 15px;
+    padding: 40px;
+
+}
+.bottom-field{
+    margin-right: auto;
+    margin-left: 20px;
+}
+
+.bottom-item {
+    display: inline;
+    padding-right: 40px;
+}
+.space{
+    margin-left: 10px;
+    margin-right: 10px;
 }

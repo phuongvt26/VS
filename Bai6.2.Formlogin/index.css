@@ -1,0 +1,88 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.form {
+    border: 1px gray solid;
+    padding: 10px;
+    background: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 0px;
+}
+
+img {
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    margin: 10px;
+}
+
+.title {
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.des {
+    font-size: 18px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.username,
+.password {
+    border: none;
+    background: white;
+    outline: 0px;
+    margin-bottom: 10px;
+    width: 400px;
+    height: 50px;
+    margin: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 10px;
+    gap: 10px
+}
+
+input:focus {
+    background: rgb(228, 239, 240);
+    outline-color: rgb(130, 230, 237);
+}
+
+.submit {
+    width: 400px;
+    height: 50px;
+    background: #02bc77;
+    outline: 0px;
+    border: 0px;
+    border-radius: 5px;
+    color: aliceblue;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+
+}
+
+.forgot-password {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
