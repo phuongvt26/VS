@@ -11,12 +11,6 @@ body {
     overflow-y: auto;
 
 }
-
-/* .container{
-   position: relative;
-
-} */
-
 .header {
     display: flex;
     padding: 10px;
@@ -73,14 +67,6 @@ body {
 
 }
 
-.icon-twitter {
-    margin-left: 20px;
-    margin-right: 10px;
-}
-
-.icon-youtube {
-    margin-right: 10px;
-}
 
 /* //body */
 
@@ -286,10 +272,8 @@ select {
 }
 
 .icon-field{
-    border: 1px solid gray;
     margin: 5px;
     padding: 5px;
-    border-radius: 14px;
     color: aliceblue;
 
 }
@@ -302,13 +286,6 @@ select {
     display: flex;
     flex-direction: column;
 }
-.list-item{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    color: white;
-}
-
 .footer-bottom{
     display: flex;
     text-align: center;
@@ -322,22 +299,19 @@ select {
     padding: 40px;
 
 }
+
 .bottom-field{
     margin-right: auto;
     margin-left: 20px;
 }
-
-/* .bottom-item {
-    display: inline;
-    padding-right: 40px;
-} */
 .space{
     margin-left: 10px;
     margin-right: 10px;
 }
-.bottom-action{
+.normal-text{
     color: white;
+    text-decoration: none;
 }
-.bottom-action:hover{
+.normal-text:hover{
     color: gold;
 }
