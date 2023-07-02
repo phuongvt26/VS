@@ -327,11 +327,17 @@ select {
     margin-left: 20px;
 }
 
-.bottom-item {
+/* .bottom-item {
     display: inline;
     padding-right: 40px;
-}
+} */
 .space{
     margin-left: 10px;
     margin-right: 10px;
+}
+.bottom-action{
+    color: white;
+}
+.bottom-action:hover{
+    color: gold;
 }
